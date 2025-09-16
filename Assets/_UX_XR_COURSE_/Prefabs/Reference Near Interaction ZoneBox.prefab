@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5013320078370264076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8916452278114235177}
+  - component: {fileID: 6293926810285575237}
+  m_Layer: 0
+  m_Name: Reference Near Interaction ZoneBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8916452278114235177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5013320078370264076}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6293926810285575237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5013320078370264076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c45183d99248d40a01d5e5571caf66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VisualNearInteractionZoneBox
+  reference: {fileID: 0}
+  forwardAxis: {x: 0, y: 0, z: 1}
+  upAxis: {x: 0, y: 1, z: 0}
+  width: 1.6
+  depth: 0.8
+  height: 0.8
+  major: 0.1
+  minor: 0.02
+  anchor: 2
+  localOffset: {x: 0, y: 0.7, z: 0}
+  drawBounds: 1
+  drawFrontPlane: 1
+  drawTopPlane: 1
+  drawSidePlanes: 1
+  drawFloorPlane: 1
+  drawBackPlane: 0
+  alpha: 1
+  boundsColor: {r: 1, g: 1, b: 1, a: 1}
+  majorColor: {r: 0.3301887, g: 0, b: 0.2530586, a: 1}
+  minorColor: {r: 0.18316127, g: 0.68889254, b: 0.7924528, a: 1}
